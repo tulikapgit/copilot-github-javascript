@@ -6,7 +6,7 @@ This is going to be useful for customers who are interested in using Python deve
 
 ## 🎯 Goal
 
-![Swag items](./Demos/images/lockers.jpg)
+![Swag items](./images/lockers.jpg)
 
 Welcome to GitHub Copilot!
 
