@@ -1,9 +1,5 @@
 # Solving algorithm puzzle of distributing swag items - Copilot with Python
 
-![Python](./images/python-locker-cover.jpg)
-
-This is going to be useful for customers who are interested in using Python development with Copilot.
-
 ## 🎯 Goal
 
 ![Swag items](./images/lockers.jpg)
