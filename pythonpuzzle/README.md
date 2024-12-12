@@ -30,7 +30,7 @@ Let's take one step at a time to solve this problem.
 
 First, let's create a new file in Visual Studio Code. It will be also nice to put inside an uniquely named folder.
 
-![Create a new file](./Demos/images/1_NewFile.jpg)
+![Create a new file](./images/1_NewFile.jpg)
 
 I named this file `locker-distribution.py`, but you can call it whatever you want. From that new file, you can start typing a comment starting with a hash sign. Copilot can suggest based on comments, function  name, previous context, etc.
 
@@ -45,51 +45,51 @@ Since we are trying to solve a problem earlier, this was what I typed.
 
 More description is better. Copilot will try to understand what you are trying to do and will suggest code snippets.
 
-![Comment](./Demos/images/2_TypeComment.jpg)
+![Comment](./images/2_TypeComment.jpg)
 
 Then, as you can see, Copilot suggested a code snippet. You can press `Tab` key to accept the suggestion. You can also press `Ctrl+Space` to see more suggestions.
 
-![Code snippet](./Demos/images/3_CopilotSuggestion.jpg)
+![Code snippet](./images/3_CopilotSuggestion.jpg)
 
 If you are quick, you might have noticed that Copilot icon on bottom right corner of the editor is spinning. That means Copilot is working hard to understand what you are trying to do and will suggest more code snippets.
 
-![Copilot is working](./Demos/images/4_CopilotSpin.jpg)
+![Copilot is working](./images/4_CopilotSpin.jpg)
 
 You might have to keep enter and hit tab to accept suggestions. The completed code might look like this, but your result might be different. That is because Copilot is learning and can generate dynamic results.
 
-![Copilot Completed](./Demos/images/5_CopilotCompletion.jpg)
+![Copilot Completed](./images/5_CopilotCompletion.jpg)
 
 ### Step 3: See some outputs from Copilot
 
 Now, let's see some processes coming from Copilot. Click **Terminal** on top menu and select **New Terminal**. This will open a new terminal window at the bottom of the editor.
 
-![New Terminal](./Demos/images/6_NewTerminal.jpg)
+![New Terminal](./images/6_NewTerminal.jpg)
 
 Let's select **OUTPUT** tab first.
 
-![Output](./Demos/images/7_Output.jpg)
+![Output](./images/7_Output.jpg)
 
 After that, let's click drop down menu on the terminal window and select **GitHub Copilot**.
 
-![Copilot](./Demos/images/8_ChangeCopilot.jpg)
+![Copilot](./images/8_ChangeCopilot.jpg)
 
 Then, you will see some telemetries from Copilot. You can see what Copilot is doing in the background, and this will get updated whenever Copilot **thinks**.
 
-![Copilot](./Demos/images/9_OutputTelemetry.jpg)
+![Copilot](./images/9_OutputTelemetry.jpg)
 
 ### Step 4: Run Python script
 
 Let's verify our first Python result. Click **TERMINAL** tab.
 
-![Terminal](./Demos/images/10_Terminal.jpg)
+![Terminal](./images/10_Terminal.jpg)
 
 Then, type `python locker-distribution.py` and hit enter. You should see some results.
 
-![Python](./Demos/images/11_RunPython.jpg)
+![Python](./images/11_RunPython.jpg)
 
 And this should be what it should look like in full view.
 
-![Full View](./Demos/images/12_ResultFull.jpg)
+![Full View](./images/12_ResultFull.jpg)
 
 This solved our initial problem for at least generating random code for each locker. But what if we want to distribute swag items as well?
 
@@ -97,11 +97,11 @@ This solved our initial problem for at least generating random code for each loc
 
 We will change our earlier logic to handle more complicated scenario. Let's change our code to look like this.
 
-![Clear Screen](./Demos/images/13_ClearScreen.jpg)
+![Clear Screen](./images/13_ClearScreen.jpg)
 
 Next, we need to be descriptive as much as possible. I typed in like this.
 
-![More Complicatted](./Demos/images/14_MoreComplicated.jpg)
+![More Complicatted](./images/14_MoreComplicated.jpg)
 
 ```python
 # We have following number of swags that need to be distributed to students:
@@ -123,21 +123,16 @@ Next, we need to be descriptive as much as possible. I typed in like this.
 
 As you enter and type, Copilot will try to understand what you are trying to do and will suggest code snippets. But it also hallcinates like this.
 
-![Hallucination](./Demos/images/15_Hallucination.jpg)
+![Hallucination](./images/15_Hallucination.jpg)
 
 You can take the suggestion again, but it possiblethat things get repeated over and over.
 
-![Override](./Demos/images/16_Override.jpg)
+![Override](./images/16_Override.jpg)
 
 Of course, you can also encounter error at any point of time. 
 
-![Error](./Demos/images/17_PossibleError.jpg)
+![Error](./images/17_PossibleError.jpg)
 
 But that should be fine. Errors are expected, and remember. You are the main pilot, and Copilot is jst your companion. You can always override and change the code.
 
-## 🤝 Contributing
-Contributions are warmly welcomed! ✨
 
-To contribute to a public exercise, please refer to our contribution guidelines [here](https://github.com/ps-copilot-sandbox/.github/blob/main/.github/CONTRIBUTING.md).
-
-To create a net new exercise, please use [this repository template](https://github.com/ps-copilot-sandbox/copilot-exercise-template).
